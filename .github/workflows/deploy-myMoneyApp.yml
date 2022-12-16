@@ -4,7 +4,7 @@ on:
   push:
 
 env:
-  PROJECT_PATH: MoneyManager/MoneyMoney.csproj.user
+  PROJECT_PATH: MoneyMoney/MoneyMoney.csproj.user
 
 jobs:
   deploy:
