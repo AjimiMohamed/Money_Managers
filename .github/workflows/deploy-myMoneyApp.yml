@@ -1,0 +1,34 @@
+name: "Deploy MoneyMoney"
+
+on:
+  push:
+    
+
+env:
+  PROJECT_PATH: MoneyMoney/MoneyMoney.csproj
+
+jobs:
+  deploy:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 6.0.x
+      
+      - name: Restore dependencies
+        run: dotnet restore 
+
+      - name: Build
+        run: dotnet build --no-restore
+
+      - name: Publish
+        run: dotnet publish MoneyMoney.csproj -c Release -o release -r win-x64 -p:PublishSingleFile=true 
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Money_Manager
+          path: release
+        
