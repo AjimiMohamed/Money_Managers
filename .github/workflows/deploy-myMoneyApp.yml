@@ -24,7 +24,7 @@ jobs:
         run: dotnet build --no-restore
 
       - name: Publish
-        run: dotnet publish MoneyMoney.csproj -c Release -o release -r win-x64 -p:PublishSingleFile=true 
+        run: dotnet publish MoneyMoney.csproj.user -c Release -o release -r win-x64 -p:PublishSingleFile=true 
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
