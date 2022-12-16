@@ -258,7 +258,7 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "Microsoft.Data.Sqlite.Core/7.0.0": {
+      "Microsoft.Data.Sqlite.Core/7.0.1": {
         "type": "package",
         "dependencies": {
           "SQLitePCLRaw.core": "2.1.2"
@@ -358,10 +358,10 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite/7.0.0": {
+      "Microsoft.EntityFrameworkCore.Sqlite/7.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "7.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "7.0.1",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.2"
         },
         "compile": {
@@ -371,11 +371,11 @@
           "lib/net6.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite.Core/7.0.0": {
+      "Microsoft.EntityFrameworkCore.Sqlite.Core/7.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "7.0.0",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.0",
+          "Microsoft.Data.Sqlite.Core": "7.0.1",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.1",
           "Microsoft.Extensions.DependencyModel": "7.0.0"
         },
         "compile": {
@@ -1759,10 +1759,10 @@
         "mahapps.metro.iconpacks.material.nuspec"
       ]
     },
-    "Microsoft.Data.Sqlite.Core/7.0.0": {
-      "sha512": "WC7SANtaFTmQ/WPyhrE96h88MrH28C7kTBenDf5Eo+IR6CbWM0Uw2pR2++tyYr3qe/zSIsIYroEupB1mLg/adw==",
+    "Microsoft.Data.Sqlite.Core/7.0.1": {
+      "sha512": "g7wJrpQXJFtmT8CaKFyd9rqG/M4TfwnAka8HwdNLeR2TxhsCAm13IO7rln5NkIpFlkNR5YZw0uEDY03lmnFJEQ==",
       "type": "package",
-      "path": "microsoft.data.sqlite.core/7.0.0",
+      "path": "microsoft.data.sqlite.core/7.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1771,7 +1771,7 @@
         "lib/net6.0/Microsoft.Data.Sqlite.xml",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
-        "microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
+        "microsoft.data.sqlite.core.7.0.1.nupkg.sha512",
         "microsoft.data.sqlite.core.nuspec"
       ]
     },
@@ -1847,30 +1847,30 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Sqlite/7.0.0": {
-      "sha512": "tufYoEHetVeALPRqzCi4YukL+uoS0pBi/6m3uSCuM5NxO/tTbuizvvBRa3qJNYZOvF3K7m4lUmmcCymKr3JSSQ==",
+    "Microsoft.EntityFrameworkCore.Sqlite/7.0.1": {
+      "sha512": "xmZ1TocLFvQG+hS8eBiM/VfWxJ7lG3x5LDEHpg1MY2gBXIMqlw1JgU/T9kj0Ci0UK7r7PkFHLHYGmu9uP3D4lQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite/7.0.0",
+      "path": "microsoft.entityframeworkcore.sqlite/7.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/_._",
-        "microsoft.entityframeworkcore.sqlite.7.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlite.7.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Sqlite.Core/7.0.0": {
-      "sha512": "aUClrz1PT06fPDY+9f2IeDhYXj3/oPxM0r3I6syiyP3Th59hObVI0QsRu5+y7FbJIkO3NgyAi+e2vzWGhmBVbQ==",
+    "Microsoft.EntityFrameworkCore.Sqlite.Core/7.0.1": {
+      "sha512": "kIt1qaDioDcgUD8/7oA/IBPEQcxijC/E1CXrTHbDRg61u6Ep64JMWj5YSVHzu63hUx8aJHULtHkfyLwnJ0sZKA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite.core/7.0.0",
+      "path": "microsoft.entityframeworkcore.sqlite.core/7.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Sqlite.xml",
-        "microsoft.entityframeworkcore.sqlite.core.7.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlite.core.7.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
@@ -2498,8 +2498,8 @@
       "FontAwesome.WPF >= 4.7.0.9",
       "MahApps.Metro.IconPacks >= 4.11.0",
       "MahApps.Metro.IconPacks.Material >= 4.11.0",
-      "Microsoft.Data.Sqlite.Core >= 7.0.0",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.0",
+      "Microsoft.Data.Sqlite.Core >= 7.0.1",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.1"
     ]
   },
@@ -2514,7 +2514,7 @@
       "projectName": "MoneyMoney",
       "projectPath": "C:\\Users\\hamma\\source\\repos\\MoneyManager\\MoneyMoney\\MoneyMoney.csproj",
       "packagesPath": "C:\\Users\\hamma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hamma\\Source\\Repos\\MoneyManager\\MoneyMoney\\obj\\",
+      "outputPath": "C:\\Users\\hamma\\source\\repos\\MoneyManager\\MoneyMoney\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2561,11 +2561,11 @@
           },
           "Microsoft.Data.Sqlite.Core": {
             "target": "Package",
-            "version": "[7.0.0, )"
+            "version": "[7.0.1, )"
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
-            "version": "[7.0.0, )"
+            "version": "[7.0.1, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
