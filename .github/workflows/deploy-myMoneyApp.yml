@@ -3,6 +3,8 @@ name: "Deploy MoneyMoney"
 on:
   push:
 
+env:
+  PROJECT_PATH: MoneyManager/MoneyMoney.csproj
 
 jobs:
   deploy:
@@ -21,7 +23,7 @@ jobs:
         run: dotnet build --no-restore
 
       - name: Publish
-        run: dotnet publish MoneyManager/MoneyMoney.csproj.user -c Release -o release -r win-x64 -p:PublishSingleFile=true 
+        run: dotnet publish ${{ env.PROJECT_PATH }} -c Release --self-contained -r win-x64 -p:PublishSingleFile=true
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
